@@ -17,7 +17,7 @@ This should be easy since this is the very first tutorial of GSAP so create thre
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>GSAP Introduction</title>
+<title>Document</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -84,3 +84,38 @@ gsap.to("h1", {
 ```
 
 `stagger` executes things one by one. For example, let's say there are three headings that are on the view port, so the headings would be executed one by one.
+
+on `stagger: -1` the ordered would be reversed.
+
+#### The `yoyo` and `repeat` Properties
+Let's say you want to animate things where an object goes back and forth, in that case you will use `yoyo` and `repeat`
+
+```js
+gsap.to("#box", {
+    x: 1200,
+    duration: 2,
+    delay: 1,
+    rotate: 180,
+    backgroundColor: "purple",
+    borderRadius: "50%",
+    repeat: 2, 
+    yoyo: true,
+    // repeat = n + 1;
+})
+```
+
+`repeat` set to -1 will loop the animation infinitely...
+
+#### Using `gsap.timeline()`
+
+Storing `gsap.timeline()` into a variable would enable us to use our own variable when calling the gsap functions like this
+
+```js
+var tl = gsap.timeline()
+tl.to("#box1",{
+    x: 1500,
+    rotate: 360,
+    duration: 1.5,
+    delay: 1,
+})
+```
