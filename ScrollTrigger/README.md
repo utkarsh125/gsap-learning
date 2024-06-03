@@ -1,7 +1,8 @@
 # ScrollTrigger
 
-![scrolltrigger-ezgif com-video-to-gif-converter](https://github.com/utkarsh125/gsap-learning/assets/63429238/d97b8375-0f13-4637-96bf-47fb3d40c4de)
-
+<p align="center">
+  <img src="https://github.com/utkarsh125/gsap-learning/assets/63429238/d97b8375-0f13-4637-96bf-47fb3d40c4de" alt="scrolltrigger-ezgif com-video-to-gif-converter">
+</p>
 
 ScrollTrigger enables anyone to create scroll-animations with minimal code. Infinitely flexible, Scrub, pin, snap or just trigger - anything scroll-related, even if it has nothing to do with animation.
 
