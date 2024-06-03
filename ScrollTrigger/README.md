@@ -1,5 +1,8 @@
 # ScrollTrigger
 
+![scrolltrigger-ezgif com-video-to-gif-converter](https://github.com/utkarsh125/gsap-learning/assets/63429238/d97b8375-0f13-4637-96bf-47fb3d40c4de)
+
+
 ScrollTrigger enables anyone to create scroll-animations with minimal code. Infinitely flexible, Scrub, pin, snap or just trigger - anything scroll-related, even if it has nothing to do with animation.
 
 **Start by adding three page-divs with a box inside - Make sure you have the gsap-cdn script at the bottom of the body tag.**
