@@ -9,17 +9,56 @@ html,
 body {
     height: 100%;
     width: 100%;
-    /* Prevent horizontal overflow */
+    cursor: none;
 }
 
-#main{
+#main {
     height: 100%;
     width: 100%;
     background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#cursor{
+#cursor {
     height: 20px;
     width: 20px;
     background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-size: 5px;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+    font-weight: 400;
+    pointer-events: none; /* Ensure the cursor does not block other mouse events */
+}
+
+#image {
+    height: 30vw;
+    width: 60vw;
+    background-color: slateblue;
+    border-radius: 10px;
+    position: relative;
+}
+
+#overlay:hover{
+    border: 10px white;
+}
+
+#image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
 }
