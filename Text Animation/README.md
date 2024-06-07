@@ -1,4 +1,7 @@
 # Text Animation
+
+
+
 In order to perform text animation in GSAP, just make a heading, give it some styles. After that open `script.js` and select `h1` using *querySelector*
 
 ```
