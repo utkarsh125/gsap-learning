@@ -1,3 +1,15 @@
+# Timeline
+
+Timeline animation refers to the sequential execution of the components
+**You don't need to use `delay` for each animation**
+#### Initialising Timeline
+For that you just need to store it inside a variable
+```js
+var tl = gsap.timeline();
+```
+
+#### Complete Code
+```js
 var menu = document.querySelector("#nav i");
 var cross = document.querySelector("#full i");
 
@@ -30,4 +42,7 @@ cross.addEventListener("click", function(){
     tl.reverse();
     console.log("Reversed successfully")
 })
+```
+
+
 
